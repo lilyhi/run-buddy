@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Run Buddy</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -38,10 +39,13 @@
 
   <!-- hero/jumbotron -->
   <section class="hero">
+    <div class="hero-cta">
     <h2>Start Building Habits.</h2>
     <p>
       seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
     </p>
+  </div>
+
     <div class="hero-form">
       <h3>Get Started Today!</h3>
       <p>Fill out this form and one of our trainers will schedule a consult.</p>
@@ -71,23 +75,30 @@
       </form>
     </div>
   </section>
+  <!-- end header -->
 
   <!-- "what we do" section -->
   <section id="what-we-do" class="intro">
-  <div class="flex-row">
-    <h2 class="section-title primary-border">What We Do
-    </h2>
-  </div>
-  <div class="flex-row">
-    <p>
-      butcher selflies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
-    </p>
-  </div>
+    <div class="flex-row">
+      <h2 class="section-title primary-border">
+        What We Do
+      </h2>
+    </div>
+    <div class="flex-row">
+      <p>
+        butcher selflies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+      </p>
+    </div>
   </section>
+  <!-- end "what we do" -->
 
   <!-- "what you do" section -->
   <section id="what-you-do" class="steps">
-    <h2 class="section-title secondary-border">What You Do</h2>
+    <div class="flex-row">
+      <h2 class="section-title secondary-border">
+        What You Do
+      </h2>
+    </div>
 
     <div class="step">
       <h3>Step 1.</h3>
@@ -142,58 +153,64 @@
       </div>
     </div>
   </section>
+  <!-- "what you do" end -->
 
   <!-- "meet the trainers" section -->
   <section id="your-trainers">
-    <h2 class="section-title primary-border">
-      Meet The Trainers
-    </h2>
+    <div class="flex-row">
+      <h2 class="section-title primary-border">
+        Meet The Trainers
+      </h2>
+    </div>
 
-  <div class="trainers">
-    <article class="trainer">
-      <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-      <div class="trainer-bio">
-        <h3 class="trainer-name">Arron Stephens</h3>
-        <h4 class="trainer-role">Speed / Strength</h4>
-        <p>
+    <div class="trainers">
+      <article class="trainer">
+       <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Arron Stephens</h3>
+          <h4 class="trainer-role">Speed / Strength</h4>
+          <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
           itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-        </p>
-      </div>
-    </article>
+          </p>
+        </div>
+      </article>
 
-    <!-- second trainer bio -->
-    <article class ="trainer">
-      <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill colling off after a workout" />
-      <div class="trainer-bio">
-        <h3 class="trainer-name">Joanna Gill</h3>
-        <h4 class="trainer-role">Endurance</h4>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-        </p>
-      </div>
-    </article>
+      <!-- second trainer bio -->
+      <article class ="trainer">
+        <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill colling off after a workout" />
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Joanna Gill</h3>
+          <h4 class="trainer-role">Endurance</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+            itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+          </p>
+        </div>
+      </article>
 
-    <!-- third trainer bio -->
-    <article class="trainer">
-      <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-      <div class="trainer-bio">
-        <h3 class="trainer-name">Harry "the Headband" Smith</h3>
-        <h4 class="trainer-role">Strength</h4>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-        </p>
-      </div>
-    </article>
-</section>
+      <!-- third trainer bio -->
+      <article class="trainer">
+        <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+          <h4 class="trainer-role">Strength</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+            itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+          </p>
+        </div>
+      </article>
+  </section>
+  <!-- "meet the trainers" end -->
 
   <!-- "reach out" section -->
   <section id="reach-out" class="contact">
-    <h2 class="section-title secondary-border">
-      Reach Out
-    </h2>
+    <div class="flex-row">
+      <h2 class="section-title secondary-border">
+        Reach Out
+      </h2>
+    </div>
 
     <div class="contact-info">
       <div>
@@ -229,10 +246,11 @@
 
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26627.019479976774!2d-112.09665339452135!3d33.46552286923988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12476b2a90b7%3A0x93bff484676bf7a6!2s317%20W%20McDowell%20Rd%2C%20Phoenix%2C%20AZ%2085003!5e0!3m2!1sen!2sus!4v1615606701972!5m2!1sen!2sus"
-        frameborder="0" style="border:0" allowfullscreen></iframe>
-
+        frameborder="0" style="border:0" allowfullscreen>
+      </iframe>
     </div>
   </section>
+  <!-- "reach out" end -->
 
   <!-- footer -->
   <footer>
@@ -242,6 +260,7 @@
       &copy; 2019 Run Buddy, Inc.
     </div>
   </footer>
+  <!-- footer end -->
 </body>
 
 </html>
