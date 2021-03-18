@@ -311,7 +311,7 @@ section {
 }
 
 .contact-info h3 {
-  color:#fce138;
+  color: #fce138;
   font-size: 32px;
 }
 
@@ -378,12 +378,6 @@ section {
   header nav ul {
     margin-top: 20px;
     width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
     justify-content: center;
   }
 
@@ -408,7 +402,7 @@ section {
     width: 80%;
   }
 
-  .trainer{
+  .trainer {
     flex: 0 70%;
   }
 
@@ -419,6 +413,7 @@ section {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+
   section {
     padding: 30px 15px;
   }
@@ -448,7 +443,7 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
+
   .hero-form button {
     width: 100%;
   }
@@ -465,16 +460,16 @@ section {
     flex: 0 100%;
   }
 
-  .contact-form {
-    order: 3;
-  }
-  
   .contact-info {
     text-align: center;
   }
 
   .contact-info > * {
     flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
   }
 
 }
